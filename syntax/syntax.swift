@@ -31,6 +31,45 @@ enum weekday{
 var day = weekday.friday
 print(day)
 
+// if conditions
+var age = 18
 
+if age >= 18 {
+    print("you can vote")
+}else {
+    print("you cant vote")
+}
 
+// switch statement
+switch day {
+    case .friday: 
+        print("its friday")
+    case .monday:
+        print("its monday")
+    case .tuesday:
+        print("its tue")
+    case .wednesday:
+        print("its wen")
+    case .thursday:
+        print("its thur")
+    
+}
 
+// ternary operator
+var canVote = age >= 18 ? "yes" : "no"
+
+print(canVote)
+
+// for loops
+let platform = ["ios","macos", "tvos","watchos"]
+
+for os in platform {
+    print("swift runs on \(os)")
+}
+// example 2 loops
+var number = 5
+
+for i in 1...10{
+    print("\(number) x \(i) is \(number*i) ")
+    
+}
