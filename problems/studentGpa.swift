@@ -15,6 +15,15 @@ let science = getDoubleInput(prompt: "enter the science grade")
 
 let average = (english+math+science)/3.0
 
-print(average)
 
+if average >= 90{
+    print("the average is: \(average) and the grade is A")
+}else if average<90 && average >= 80 {
+    print("the average is: \(average) and the grade is B")
 
+}else if average<80 && average >= 70 {
+    print("the average is: \(average) and the grade is C")
+}
+else if average<70 && average >= 60 {
+    print("the average is: \(average) and the grade is D")
+}
